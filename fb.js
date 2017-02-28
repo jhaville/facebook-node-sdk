@@ -246,7 +246,7 @@
             }
 
             if(domain === 'graph') {
-                uri = 'https://graph.facebook.com/v2.2/' + path;
+                uri = 'https://graph.facebook.com/v2.3/' + path;
                 isOAuthRequest = /^oauth.*/.test('oauth/');
             }
             else if(domain == 'api') {
